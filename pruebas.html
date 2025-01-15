@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang=”es”>
+    <head>
+        <meta charset=”UTF-8”>
+            <title>Document</title>
+            <style>
+                    .contenedor{
+                        display: table;
+                    }
+
+                    #fila {
+                        display: table-row;
+                    }
+
+                    p{
+                        display: list-item;
+                        list-style: disc;
+                        list-style-position: inside;
+                        
+                    }
+
+                    #titulo{
+                        background-color: aqua;
+                        transition: ease .5s;
+                    }
+
+                    .foto, .foto2{
+                        display: none;
+                        transition: ease .5s;
+                    }
+
+                    @media screen and (max-width:1200px) and (orientation:portrait){
+                        #titulo{
+                            background-color: red;
+                            transition: ease .5s;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-size: small;
+                        }
+                        .foto{
+                            display: block;
+                            transition: ease .5s;
+                            width: 30%;
+                            height: solid;
+                        }
+                        
+                    }
+
+                    @media screen and (max-width:1500px) and (orientation:landscape){
+                        #titulo{
+                            background-color: black;
+                            color: white;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            font-size: larger;
+                            transition: ease .5s;
+                        }
+
+                        .foto2{
+                            display: block;
+                            width: 30%;
+                            height: solid;
+                        }
+                    }
+                    
+	</style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <header id="titulo">
+                <h1>hola, soy una prueba</h1>
+                <img src="fotos/DSC00424.JPG" alt="" class="foto">
+                <img src="fotos/DSC00423.JPG" alt="" class="foto2">
+            </header>
+            <div id="filas">
+                <p>Uno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+                <p>Dos: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+                <p>Tres: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+                <p>Cuatro: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+                <p>Cinco: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+                <p>Seis: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maxime fugit odio iusto amet temporibus aspernatur at numquam sequi dicta, voluptatum ratione doloremque repellendus, eum vero illum? Voluptatem, numquam accusantium.</p>
+    
+            </div>
+        </div>
+    </body>
+</html>

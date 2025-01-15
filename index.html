@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/advertencia.js">
+        alertaInicio()
+    </script> <!--eliminar con el paso del tiempo-->
+</head>
+<body>
+    <aside id="menu">
+        <div id="logo">
+            <p>portfolio de fotógrafo</p>
+        </div>
+        <div id="menu-interno">
+            <a href="">imagenes</a>
+            <a href="">contacto</a>
+            <a href="">sobre nosotros</a>
+            <a href="">¡Sube tus fotos!</a>
+        </div>
+    </aside>
+    <header id="titulo">
+        <h1 id="contenido">ROBERTO STUDIO</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div id="subtitulo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi obcaecati est quis necessitatibus quos quia perspiciatis enim, iusto laborum nostrum soluta ad fugit odit asperiores ab ullam, dolorum facilis!</p>
+            </div>
+
+            <div class="fotos" onclick="mostrarTexto(this)">
+                <img src="fotos/79D34825-C5D1-4C18-8C3C-0A165578BE06.jpeg" alt="" class="foto-individual" onclick="mostrarTexto(this)">
+                <div class="texto-foto-individual">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eligendi molestias aspernatur a vitae magni, ea consectetur mollitia maiores repellendus rerum blanditiis atque odio, consequuntur dicta? Nulla reprehenderit qui culpa.</p>
+                </div>
+            </div>
+
+            <div class="fotos" onclick="mostrarTexto(this)">
+                <div class="texto-foto-individual">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae vel consequuntur ut, deleniti quae cupiditate magni illum nihil quasi consectetur, voluptatem ipsum saepe! Tempore eius ad tenetur cum consequuntur!</p>
+                </div>
+                <img src="fotos/DSC00423.JPG" alt="" class="foto-individual">
+            </div>
+
+            <div class="fotos" onclick="mostrarTexto(this)">
+                <img src="fotos/DSC00424.JPG" alt="" class="foto-individual">
+                <div class="texto-foto-individual" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptatum obcaecati saepe. Soluta harum  onclic="mostrarTexto('texto-foto-individual')" necessitatibus, id eveniet error, omnis quod architecto delectus autem sapiente, odit assumenda minima nesciunt at.</p>
+                </div>
+            </div>
+
+            <div class="fotos" onclick="mostrarTexto(this)">
+                
+                <div class="texto-foto-individual">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellendus quidem recusandae accusamus mollitia, repellat blanditiis obcaecati, voluptatibus, voluptates laudantium veniam? Quo velit necessitatibus rerum voluptate aliquid, hic voluptatibus facilis!</p>
+                </div>
+                <img src="fotos/IMG_5104.JPG" alt="" class="foto-individual">
+            </div>
+            <div class="fotos" onclick="mostrarTexto(this)">
+                <img src="fotos/IMG_9144.JPG" alt="" class="foto-individual">
+                <div class="texto-foto-individual">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, vitae obcaecati? Tenetur molestias tempora nesciunt impedit, quam, nulla repudiandae ducimus nemo aspernatur, laudantium magnam odit culpa qui! Dolor, id dolorem.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--js principal que no va a ser borrado-->
+    <script src="js/scripts.js"></script>
+
+    <!--funcion de alterta al abrir el archivo. Esto es temporal y debe ser eliminado con el tiempo-->
+    <script src="js/advertencia.js"></script>
+    <script>
+        window.onload = function() {
+            alertaInicio();
+        };
+    </script>
+</body>
+</html>
