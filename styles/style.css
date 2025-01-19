@@ -7,6 +7,15 @@
     otros colores: #505A5B #8F91A2
 */
 
+/*vriables para los colores*/
+
+:root{
+    --colorFondo: #F4F1DE;
+    --colorFonosEspecificos:#94B0DA; /*fondos de títulos*/
+    --letrasTitulos:#343F3E;
+    --otroscolores:#505A5B;
+}
+
 /*estilos generales*/
 
 body, html{
