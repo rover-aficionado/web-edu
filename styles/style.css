@@ -84,6 +84,7 @@ body, html{
     width: 60%;
     margin: .5rem;
     border-radius: 5px;
+    cursor: zoom-in;
 }
 
 /*formas responsive*/
